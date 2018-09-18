@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+package Basket;
+
+message ImageFile {
+	string FileName = 1;
+	bytes FileContent = 2;
+	string FileTime=3;
+}

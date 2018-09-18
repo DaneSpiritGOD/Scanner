@@ -1,0 +1,22 @@
+﻿syntax = "proto3";
+
+package Basket;
+
+message Image {	
+	int32 Width=1;
+	int32 Height=2;
+	int32 ChannelCount=3;
+	bytes Raw = 4;
+	repeated Rect Rois=5;
+	int32 SolutionId=7;
+	int32 ErrorId=8;
+	string Key=9;
+}
+
+message Rect {
+	int32 X=1;
+	int32 Y=2;
+	int32 Width=3;
+	int32 Height=4;
+	int32 ErrorId=5;
+}

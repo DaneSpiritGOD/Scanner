@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+import "Image.proto";
+import "ImageFile.proto";
+import "SimpleRawImage.proto";
+
+package Basket;
+
+message Mix {
+	oneof FormatOneOf {
+		Image Image=1;
+		ImageFile ImageFile=2;
+		SimpleRawImage SimpleRawImage=3;
+	};
+}

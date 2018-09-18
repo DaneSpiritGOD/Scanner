@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netstandard2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Archiving.Core\Archiving.Core.csproj" />
+    <ProjectReference Include="..\Archiving.Operation.File\Archiving.Operation.FileExt.csproj" />
+    <ProjectReference Include="..\Archiving.Operation.Ftp\Archiving.Operation.Ftp.csproj" />
+    <ProjectReference Include="..\Archiving.Operation.Net\Archiving.Operation.Net.csproj" />
+  </ItemGroup>
+
+</Project>

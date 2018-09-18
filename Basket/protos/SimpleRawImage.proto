@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+package Basket;
+
+message SimpleRawImage
+{ 
+	int32 SolutionId=1;
+	int32 ErrorId=2;
+	int32 Width=3;
+	int32 Height=4;
+	int32 ChannelCount=5;
+	bytes RawData=6;
+	string ClassifyKey=7;
+}
