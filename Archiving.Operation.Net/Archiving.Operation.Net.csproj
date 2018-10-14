@@ -4,9 +4,11 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CommonLibrary\NanoMsgPlus\NanomsgPlus.csproj" />
+    <PackageReference Include="NanomsgPlus" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Archiving.Core\Archiving.Core.csproj" />
-    <ProjectReference Include="..\Archiving.Operation.File\Archiving.Operation.FileExt.csproj" />
+    <ProjectReference Include="..\Archiving.Operation.File\Archiving.Operation.File.csproj" />
     <ProjectReference Include="..\Basket\Basket.csproj" />
   </ItemGroup>
   <ItemGroup>
