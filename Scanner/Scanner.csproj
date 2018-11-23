@@ -16,7 +16,7 @@
     <EmbeddedResource Include="scan.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.6" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Archiving.ConfigureServiceExtensions\Archiving.ConfigureServiceExtensions.csproj" />
